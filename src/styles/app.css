@@ -1,0 +1,29 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Make It Sans';
+    font-weight: normal;
+    font-display: swap;
+    src: url('https://www.autoscout24.de/assets/external/as24-fonts/make-it-sans-regular.v1.woff2') format('woff2'),
+        url('https://www.autoscout24.de/assets/external/as24-fonts/make-it-sans-regular.v1.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Make It Sans';
+    font-weight: bold;
+    font-display: swap;
+    src: url('https://www.autoscout24.de/assets/external/as24-fonts/make-it-sans-bold.v1.woff2') format('woff2'),
+        url('https://www.autoscout24.de/assets/external/as24-fonts/make-it-sans-bold.v1.ttf') format('truetype');
+}
+
+/* How to use it with system fonts as fallback */
+
+body {
+    font-family: Make It Sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 1rem;
+    color: #333;
+}

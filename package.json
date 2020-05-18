@@ -1,0 +1,21 @@
+{
+  "name": "acq-workshop-autocomplete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AutoScout24/acq-workshop-autocomplete.git",
+  "author": "Adam <me@bdadam.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "next": "^9.4.1",
+    "p-debounce": "^2.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.151",
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  }
+}
